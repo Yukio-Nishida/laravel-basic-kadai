@@ -19,6 +19,6 @@ Route::get('/', function () {
 
 Route::get('/posts', function () {
 
-    return '<h1>投稿一覧</h1>';
+    return '投稿一覧';
 
 });
