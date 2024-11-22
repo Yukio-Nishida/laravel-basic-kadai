@@ -16,3 +16,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/posts', function () {
+
+    return '<h1>投稿一覧</h1>';
+
+});
